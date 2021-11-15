@@ -2,7 +2,7 @@ function E = ACEnergy(G, row, col, s, w1, w2)
 % ACENERGY Calculates the overall energy at each control point of the given
 % active contour and gradient map
 % Input
-%   G: gradient map
+%   G: gradient squared map
 %   col: indices of the control points on the contour
 %   row: indices of the control points on the contour
 %   s: parameterized control points
